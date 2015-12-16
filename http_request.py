@@ -1,4 +1,13 @@
-"""HTTP Requests with Python"""
+"""HTTP Requests with Python
+
+=================   Using urllib:   ==================
+import urllib
+urlhandler = urllib.urlopen('http://www.py4inf.com/code/romeo.txt')
+
+for line in urlhandler:
+    print line.strip()
+======================================================
+"""
 
 import socket
 
