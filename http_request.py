@@ -15,8 +15,8 @@ def make_socket():
     """Create a socket to a host, port."""
 
     my_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    my_socket.connect(('www.py4inf.com', 80))
-    my_socket.send('GET http://www.py4inf.com/code/romeo.txt HTTP/1.0\n\n')
+    my_socket.connect(('www.pythonlearn.com', 80))
+    my_socket.send('GET http://www.pythonlearn.com/code/intro-short.txt HTTP/1.0\n\n')
     return my_socket
 
 def main():
