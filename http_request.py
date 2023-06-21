@@ -20,15 +20,15 @@ def make_socket():
     return my_socket
 
 def main():
-    """Main function."""
-
+    """Main function. Really"""
+ 
     my_socket = make_socket()
-    print "\n"
+    print('/n')
     while True:
         data = my_socket.recv(512)
         if len(data) < 1:
             break
-        print data
+        print(data)
     my_socket.close()
 
 if __name__ == '__main__':

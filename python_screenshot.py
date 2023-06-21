@@ -1,4 +1,4 @@
 """docstring"""
 TITLE = "My python Screenshot  "
-print TITLE.upper().strip()
+print(TITLE.upper().strip())
 
